@@ -1,6 +1,6 @@
 # Requerimientos -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T00:07:20.909Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T00:10:16.027Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Visualización de la cámara en vivo
 
@@ -55,3 +55,49 @@ El sistema debe permitir la exportación y descarga del modelo entrenado.
 ### RNF-01: Ejecutable en capa gratuita T4 (No funcional)
 
 El proceso de entrenamiento debe estar optimizado para ejecutarse dentro de los límites de la capa gratuita.
+
+## HU-04: Identificación exclusiva frente a la cámara
+
+### RF-01: Cargar modelo e inferir (Funcional)
+
+El software local principal debe cargar el modelo reentrenado y realizar inferencias sobre el flujo.
+
+### RF-02: Dibujar recuadro solo en clase objetivo (Funcional)
+
+El sistema local debe dibujar un rectángulo identificatorio únicamente si confirma la presencia de la clase objetivo.
+
+### RNF-01: Mínimo 15 FPS (No funcional)
+
+La inferencia en tiempo real debe procesarse a un mínimo de 15 FPS.
+
+## HU-05: Localización de mi rostro en la pantalla
+
+### RF-01: Extraer coordenadas (x,y,w,h) (Funcional)
+
+El sistema debe extraer las coordenadas del bounding box generado por la inferencia.
+
+### RF-02: Calcular centroide (Cx, Cy) (Funcional)
+
+El sistema debe calcular el centroide geométrico del rostro detectado.
+
+### RF-03: Calcular error vs centro (Funcional)
+
+El sistema debe comparar constantemente la posición del centroide contra el centro absoluto del fotograma.
+
+## HU-06: Movimiento físico y seguimiento de la cámara
+
+### RF-01: Conexión servicio PTZ ONVIF (Funcional)
+
+El sistema debe inicializar una conexión con el servicio PTZ de la cámara utilizando ONVIF.
+
+### RF-02: Enviar comandos direccionales (Funcional)
+
+El sistema debe enviar comandos PTZ direccionales a través de ONVIF si el error supera una zona muerta.
+
+### RNF-01: Uso de librería onvif-zeep (No funcional)
+
+El código de conexión ONVIF debe implementarse utilizando la librería onvif-zeep en Python.
+
+### RNF-02: Control PID para movimientos suaves (No funcional)
+
+El algoritmo de seguimiento debe implementar una lógica de control (Proporcional o PID) para asegurar movimientos suaves.
