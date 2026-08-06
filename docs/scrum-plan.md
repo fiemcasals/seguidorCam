@@ -1,6 +1,6 @@
 # Plan de Requerimientos — seguidorCam
 
-_Generado automáticamente el 2026-08-06T00:07:23.671Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-08-06T00:07:35.108Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
@@ -20,6 +20,14 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 | 12 | RNF-01 | Ejecutable en capa gratuita T4 | HU-03 | — | — | Hacer | Sin asignar | — | — |
 | 13 | RF-01 | Cargar modelo e inferir | HU-04 | — | — | Hacer | Sin asignar | — | — |
 | 14 | RF-02 | Dibujar recuadro solo en clase objetivo | HU-04 | — | — | Hacer | Sin asignar | — | — |
+| 15 | RNF-01 | Mínimo 15 FPS | HU-04 | — | — | Hacer | Sin asignar | — | — |
+| 16 | RF-01 | Extraer coordenadas (x,y,w,h) | HU-05 | — | — | Hacer | Sin asignar | — | — |
+| 17 | RF-02 | Calcular centroide (Cx, Cy) | HU-05 | — | — | Hacer | Sin asignar | — | — |
+| 18 | RF-03 | Calcular error vs centro | HU-05 | — | — | Hacer | Sin asignar | — | — |
+| 19 | RF-01 | Conexión servicio PTZ ONVIF | HU-06 | — | — | Hacer | Sin asignar | — | — |
+| 20 | RF-02 | Enviar comandos direccionales | HU-06 | — | — | Hacer | Sin asignar | — | — |
+| 21 | RNF-01 | Uso de librería onvif-zeep | HU-06 | — | — | Hacer | Sin asignar | — | — |
+| 22 | RNF-02 | Control PID para movimientos suaves | HU-06 | — | — | Hacer | Sin asignar | — | — |
 
 ## Detalle
 
@@ -63,4 +71,28 @@ Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada f
 - Estimado: 0h
 
 ### RF-02 — Dibujar recuadro solo en clase objetivo
+- Estimado: 0h
+
+### RNF-01 — Mínimo 15 FPS
+- Estimado: 0h
+
+### RF-01 — Extraer coordenadas (x,y,w,h)
+- Estimado: 0h
+
+### RF-02 — Calcular centroide (Cx, Cy)
+- Estimado: 0h
+
+### RF-03 — Calcular error vs centro
+- Estimado: 0h
+
+### RF-01 — Conexión servicio PTZ ONVIF
+- Estimado: 0h
+
+### RF-02 — Enviar comandos direccionales
+- Estimado: 0h
+
+### RNF-01 — Uso de librería onvif-zeep
+- Estimado: 0h
+
+### RNF-02 — Control PID para movimientos suaves
 - Estimado: 0h
