@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T00:07:29.549Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T00:10:17.023Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -30,5 +30,12 @@ graph TD
   subgraph US_1785973987388["HU-05: Localización de mi rostro en la pantalla"]
     REQ_1785974846222["RF-01: Extraer coordenadas (x,y,w,h)"]
     REQ_1785974849536["RF-02: Calcular centroide (Cx, Cy)"]
+    REQ_1785974850088["RF-03: Calcular error vs centro"]
+  end
+  subgraph US_1785973987561["HU-06: Movimiento físico y seguimiento de la cámara"]
+    REQ_1785974850231["RF-01: Conexión servicio PTZ ONVIF"]
+    REQ_1785974850355["RF-02: Enviar comandos direccionales"]
+    REQ_1785974852785["RNF-01: Uso de librería onvif-zeep"]
+    REQ_1785974855090["RNF-02: Control PID para movimientos suaves"]
   end
 ```
