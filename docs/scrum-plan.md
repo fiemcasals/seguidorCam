@@ -1,12 +1,12 @@
 # Plan de Requerimientos — seguidorCam
 
-_Generado automáticamente el 2026-08-06T00:10:14.199Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-08-06T23:59:12.756Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
 | Orden | Código | Requerimiento | Historia de Usuario | Módulo | Entrega | Estado | Desarrollador | Depende de | Rechazos |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | RF-01 | Conexión RTSP | HU-01 | — | — | Hacer | Sin asignar | — | — |
+| 1 | RF-01 | Conexión RTSP | HU-01 | — | — | Hacer | po-segudorCam | — | — |
 | 2 | RF-02 | Mostrar flujo de video | HU-01 | — | — | Hacer | Sin asignar | — | — |
 | 3 | RNF-01 | Latencia < 100ms | HU-01 | — | — | Hacer | Sin asignar | — | — |
 | 4 | RF-01 | Detección genérica de rostros | HU-02 | — | — | Hacer | Sin asignar | — | — |
