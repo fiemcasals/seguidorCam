@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T23:59:15.634Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T23:59:23.612Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -38,4 +38,5 @@ graph TD
     REQ_1785974852785["RNF-01: Uso de librería onvif-zeep"]
     REQ_1785974855090["RNF-02: Control PID para movimientos suaves"]
   end
+  REQ_1785974833072 --> REQ_1785974832467
 ```
