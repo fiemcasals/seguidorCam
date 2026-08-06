@@ -1,6 +1,6 @@
 # Plan de Requerimientos — seguidorCam
 
-_Generado automáticamente el 2026-08-06T00:07:35.108Z — no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-08-06T00:10:14.199Z — no editar a mano, se sobreescribe en cada publicación._
 
 Orden sugerido de desarrollo (respeta dependencias entre Requerimientos). Cada fila indica de qué Requerimientos depende, si tiene.
 
