@@ -1,6 +1,6 @@
 # Requerimientos -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T00:07:18.042Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T00:07:20.909Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Visualización de la cámara en vivo
 
@@ -43,3 +43,15 @@ Se debe proveer un entorno de ejecución en la nube (Jupyter Notebook) preparado
 ### RF-02: Aceptar dataset de imágenes (Funcional)
 
 El entorno de entrenamiento debe aceptar el dataset de imágenes generado localmente.
+
+### RF-03: Reentrenamiento YOLO (Funcional)
+
+El script debe ejecutar un proceso de reentrenamiento (Fine-Tuning) sobre un modelo base definiendo una única clase.
+
+### RF-04: Exportar modelo final (Funcional)
+
+El sistema debe permitir la exportación y descarga del modelo entrenado.
+
+### RNF-01: Ejecutable en capa gratuita T4 (No funcional)
+
+El proceso de entrenamiento debe estar optimizado para ejecutarse dentro de los límites de la capa gratuita.
