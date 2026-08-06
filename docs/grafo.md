@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T00:07:26.240Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T00:07:29.549Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
@@ -29,5 +29,6 @@ graph TD
   end
   subgraph US_1785973987388["HU-05: Localización de mi rostro en la pantalla"]
     REQ_1785974846222["RF-01: Extraer coordenadas (x,y,w,h)"]
+    REQ_1785974849536["RF-02: Calcular centroide (Cx, Cy)"]
   end
 ```
