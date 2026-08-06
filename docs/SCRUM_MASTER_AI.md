@@ -1,6 +1,6 @@
 # Este repo está conectado a Scrum Master AI
 
-_Generado automáticamente el 2026-08-05T23:36:21.014Z -- no editar a mano, se sobreescribe en cada publicación._
+_Generado automáticamente el 2026-08-06T00:10:22.986Z -- no editar a mano, se sobreescribe en cada publicación._
 
 Si el usuario te pidió leer la documentación de este proyecto, o arrancó una
 conversación sobre "qué sigue", "cargar requerimientos", "sincronizar tests",
