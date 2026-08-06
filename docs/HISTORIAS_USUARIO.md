@@ -1,6 +1,6 @@
 # Historias de Usuario -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T00:07:32.800Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T00:10:15.077Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ## HU-01: Visualización de la cámara en vivo
 
