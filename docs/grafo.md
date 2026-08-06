@@ -1,6 +1,6 @@
 # Grafo de Dependencias -- seguidorCam
 
-_Generado automaticamente el 2026-08-06T00:10:17.023Z -- no editar a mano, se sobreescribe en cada publicacion._
+_Generado automaticamente el 2026-08-06T23:59:15.634Z -- no editar a mano, se sobreescribe en cada publicacion._
 
 ```mermaid
 graph TD
