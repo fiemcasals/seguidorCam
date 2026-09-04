@@ -1,0 +1,1 @@
+La idea es que no tenga componentes que distraigan, pero como la idea es resaltar que ubica la cara dentro de la imagen, refiriendola por medio de los pixeles, quiero que me diga en que pixel horizontal y vertical esta el centro de mi cara. (pero que tenga un boton para sacar la etiqueta)
